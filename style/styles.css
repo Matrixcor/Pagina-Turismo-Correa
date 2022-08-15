@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+.Header{
+    position: relative;
+    width: 100vw;
+}
+.Fondo__Imagen{ /*responsive*/
+    width: 99vw;
+}
+
+.Header__Titulo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 5vw;
+    color: aliceblue;
+}
+.Header__Menu{
+    width: 95vw;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+.Menu__Lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.Lista__Opciones{
+    width: 13vw;
+    background-image: url('../img/fondo-menu-2.jpg');
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 7px 7px 10px burlywood;
+    font-size: 2vw;
+    color: aliceblue;
+    text-align: center;
+}
+.Contenido__General{
+    width: 99vw;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin-bottom: 4%;
+}
+/* las secciones*/
+.Presentacion__Uno{
+    width: 55vw;
+    position: absolute;
+    top: 67vw;
+    left: 42vw;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 7px 7px 10px black;
+    background-color: rgba(236, 240, 241, 0.8);
+    font-size: 1.7vw;
+}
+.Presentacion__Dos{
+    width: 65vw;
+    position: absolute;
+    top: 125vw;
+    left: 2vw;
+    font-size: 1.7vw;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 7px 7px 10px black;
+    background-color: rgba(236, 240, 241, 0.8);
+}
+.Presentacion__Tres{
+    width: 55vw;
+    position: absolute;
+    top: 182vw;
+    left: 42vw;
+    font-size: 1.7vw;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 7px 7px 10px black;
+    background-color: rgba(236, 240, 241, 0.8);
+}
+.General__Fondo{
+    width: 99vw;
+    height: 100vh;
+}
+/*pie de pagia*/
+.Pie{
+    background-color: aqua;
+    font-size: 20px;
+}
+.Pie__Contenedor{
+    display: flex;
+    align-items: center;
+}
+.Contenedor__Opciones{
+    list-style: none;
+    font-weight: bold;
+    padding-left: 3%;
+}
+.Contenedor__Copiright{
+    padding-left: 60%;
+}
