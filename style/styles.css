@@ -14,7 +14,6 @@ body{
 .Fondo__Imagen{ /*responsive*/
     width: 99vw;
 }
-
 .Header__Titulo{
     position: absolute;
     top: 30%;
@@ -42,6 +41,12 @@ body{
     font-size: 2vw;
     color: aliceblue;
     text-align: center;
+}
+/*va al git hub*/
+/*animacion hover */
+.Lista__Opciones:hover{
+    height: 25%;
+    width: 15vw
 }
 .Contenido__General{
     width: 99vw;
@@ -85,7 +90,6 @@ body{
     width: 99vw;
     height: 100vh;
 }
-/*pie de pagia*/
 .Pie{
     background-color: aqua;
     font-size: 20px;
@@ -102,3 +106,86 @@ body{
 .Contenedor__Copiright{
     padding-left: 60%;
 }
+
+/* hago responsive al sitio */
+
+@media screen and (min-width:280px) and (max-width:480px){ 
+    /*280px de ancho para el galaxy fold, sino colocaria el break point de 320px*/
+    .Header__Titulo{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 5vw;
+        color: aliceblue;
+    }
+    .Header__Menu{
+        width: 20vw;
+        position: absolute;
+        top: 80%;
+        left: 1%;
+    }
+    .Menu__Lista{
+        display: Block;
+        list-style: none;
+    }
+    .Lista__Opciones{
+        background-image: url('../img/fondo-menu-2.jpg');
+        background-size: cover;
+        /*padding: 0% 7%;*/
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 7px 7px 10px gray;
+        font-size: 2.5vw;
+        color: aliceblue;
+        /*tendria que colocar la animacion hover de ampliar*/
+    }
+    .Contenido__General{
+        width: 99vw;
+        height: 100%;
+        padding: 0;
+        border: 0;
+        margin-bottom: 30%;
+    }
+    .Presentacion__Uno{
+        width: 97vw;
+        position: absolute;
+        top: 80vw;
+        left: 1vw;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 7px 7px 10px black;
+        background-color: rgba(236, 240, 241, 0.8);
+        font-size: 3vw;
+    }
+    .Presentacion__Dos{
+        width: 97vw;
+        position: absolute;
+        top: 163vw;
+        left: 1vw;
+        font-size: 3vw;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 7px 7px 10px black;
+        background-color: rgba(236, 240, 241, 0.8);        
+    }
+    .Presentacion__Tres{
+        width: 97vw;
+        position: absolute;
+        top: 245vw;
+        left: 1vw;
+        font-size: 3vw;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 7px 7px 10px black;
+        background-color: rgba(236, 240, 241, 0.8);
+    }
+    .Pie__Contenedor{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .Contenedor__Opciones{
+        list-style: none;
+        justify-content: center;
+    }
+    .Contenedor__Copiright{
+        justify-content: center;
+        padding: 0;
+    }
+    }
