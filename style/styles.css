@@ -43,10 +43,10 @@ body{
     text-align: center;
 }
 /*va al git hub*/
+
 /*animacion hover */
 .Lista__Opciones:hover{
-    height: 25%;
-    width: 15vw
+    transform: scale(1.5);
 }
 .Contenido__General{
     width: 99vw;
